@@ -65,6 +65,19 @@
   border: 1px solid #ccc;
 }
 
+.contact {
+  position: relative;
+  text-align: center;
+  color: rgb(255, 248, 255);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:60px;
+  font-weight: 500;
+}
 
 * {
     box-sizing: border-box;
